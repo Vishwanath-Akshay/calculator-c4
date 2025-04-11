@@ -11,8 +11,8 @@
   return a*b;
  }
 
- int div(){
-
+ int div(int a,int b){
+	return a/b;
  }
  int power(int a,int b){
     return pow(a,b);
@@ -33,5 +33,6 @@ int main(){
     printf("Addition of two numbers is: %d\n" ,add(a,b));
     printf("Subtraction of two numbers is: %d\n" ,sub(a,b));
     printf("Mulitpilcation of two numbers is: %d\n" ,mult(a,b));
+    printf("Division of two numbers is: %d\n" ,div(a,b));
     printf("%d power %d = %d\n",a,b,power(a,b));//power
 }

@@ -17,11 +17,13 @@
  int power(int a,int b){
     return pow(a,b);
  }
-
+int ssqrt(int a){
+    return sqrt(a);
+}
 
 int main(){
 
-    int a,b;
+    int a,b;//3
     printf("Welcome to the Team Calculator!\n");
     printf("Enter first number: ");
     scanf("%d", &a);
@@ -35,4 +37,5 @@ int main(){
     printf("Mulitpilcation of two numbers is: %d\n" ,mult(a,b));
     printf("Division of two numbers is: %d\n" ,div(a,b));
     printf("%d power %d = %d\n",a,b,power(a,b));//power
+    printf("square root of %d = %d\n",a,ssqrt(a));
 }
